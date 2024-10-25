@@ -8,8 +8,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Portfolio from './pages/Portfolio/Portfolio.jsx';
-import Blogs from './pages/Blogs/Blogs.jsx';
-import Resume from './pages/Resume/Resume.jsx';
 import About from './pages/About/About.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 
@@ -20,22 +18,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <About/>,
+        element: <Portfolio/>,  // Now Portfolio is the default page
       },
       {
-        path: "/resume",
-        element: <Resume/>,
-      },
+        path: "/about",
+        element: <About/>,       // About page moved to "/about"
+      },  
       {
-        path: "/portfolio",
-        element: <Portfolio/>,
-      },
-      {
-        path: "blogs",
-        element: <Blogs/>
-      },
-      {
-        path: "contact",
+        path: "/contact",
         element: <Contact/>
       }
     ]

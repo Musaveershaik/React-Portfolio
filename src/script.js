@@ -7,12 +7,36 @@ const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 
+// // // sidebar variables
+// // const sidebar = document.querySelector("[sidebar-info_more]");
+// // const sidebarBtn = document.querySelector("[info_more-btn]");
+
+// // // sidebar toggle functionality for mobile
+// // sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+// // sidebar variables
+// const sidebar = document.querySelector("[sidebar-info_more]");
+// const sidebarBtn = document.querySelector("[info_more-btn]");
+
+// // Function to toggle visibility (this is assuming you have a class-based toggle system)
+// function elementToggleFunc(element) {
+//   element.classList.toggle("active");
+// }
+
+// // sidebar toggle functionality for mobile
+// sidebarBtn.addEventListener("click", function () {
+//   elementToggleFunc(sidebar);
+// });
+
+
+
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
 
 
 
@@ -112,6 +136,19 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 
 }
+
+
+const handleMouseEnter = (projectId) => {
+  if (projectId === 5) {
+    document.body.style.cursor = 'url(images/custom-cursor.png), auto'; // Replace with your custom cursor
+  }
+};
+
+const handleMouseLeave = (projectId) => {
+  if (projectId === 5) {
+    document.body.style.cursor = 'auto'; // Reset cursor to default
+  }
+};
 
 
 
