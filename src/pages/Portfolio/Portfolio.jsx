@@ -292,7 +292,7 @@ const Portfolio = () => {
       </header>
 
       {/* Filter buttons */}
-      <ul className="filter-list">
+      {/* <ul className="filter-list">
         {['All', 'Web design', 'Applications', 'Web development'].map((category) => (
           <li className="filter-item" key={category}>
             <button
@@ -304,7 +304,7 @@ const Portfolio = () => {
             </button>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       {/* Portfolio items */}
       <section className="projects">

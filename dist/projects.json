@@ -4,15 +4,15 @@
     "title": "Password Generator",
     "category": "Chrome Extension",
     "image": "images/Chrome_Extension.png",
-    "demoLink": "https://cute-croquembouche-bc3712.netlify.app/",
-    "githubLink": "https://github.com/yourusername/metaspark"
+    "demoLink": "https://generatorpasswordquickly.netlify.app/",
+    "githubLink": "https://github.com/Musaveershaik/Password-Generator"
   },
   {
     "id": 2,
     "title": "Aora Modile App",
     "category": "React Native + AppWrite",
     "image": "images/ReactNative.png",
-    "demoLink": "https://zippy-pixie-9cd514.netlify.app/",
+    "demoLink": "",
     "githubLink": "https://github.com/yourusername/orizon"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Custom Cursor",
     "category": "Interactive Design",
     "image": "images/project-51.png",
-    "demoLink": "Live_Demo",
+    "demoLink": "/",
     "githubLink": "https://github.com/yourusername/custom-cursor"
   },
   {
