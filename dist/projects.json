@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "Password Generator",
+    "category": "Chrome Extension",
+    "image": "images/Chrome_Extension.png",
+    "demoLink": "https://cute-croquembouche-bc3712.netlify.app/",
+    "githubLink": "https://github.com/yourusername/metaspark"
+  },
+  {
+    "id": 2,
+    "title": "Aora Modile App",
+    "category": "React Native + AppWrite",
+    "image": "images/ReactNative.png",
+    "demoLink": "https://zippy-pixie-9cd514.netlify.app/",
+    "githubLink": "https://github.com/yourusername/orizon"
+  },
+  {
+    "id": 3,
+    "title": "Drum Kit",
+    "category": "Interactive Web Applications",
+    "image": "images/project-6.png",
+    "demoLink": "https://cute-croquembouche-bc3712.netlify.app/",
+    "githubLink": "https://github.com/yourusername/metaspark"
+  },
+  {
+    "id": 4,
+    "title": "Full-Stack Inventory Tracker",
+    "category": "AWS Deployment with Guide",
+    "image": "images/Aws_project.png",
+    "demoLink": "https://github.com/Musaveershaik/aws-fullstack-inventory-app-deployment?tab=readme-ov-file#aws-architecture-design",
+    "githubLink": "https://github.com/yourusername/fundo"
+  },
+  {
+    "id": 5,
+    "title": "Custom Cursor",
+    "category": "Interactive Design",
+    "image": "images/project-51.png",
+    "demoLink": "Live_Demo",
+    "githubLink": "https://github.com/yourusername/custom-cursor"
+  },
+  {
+    "id": 6,
+    "title": "Simon Game",
+    "category": "Web-Based Games",
+    "image": "images/project-4.png",
+    "demoLink": "https://poetic-frangollo-93b3d1.netlify.app/",
+    "githubLink": "https://github.com/yourusername/brawlhalla"
+  },    
+  {
+    "id": 7,
+    "title": "NotesHub",
+    "category": "Dockerized Apps",
+    "image": "images/project-1.png",
+    "demoLink": "https://github.com/Musaveershaik/dockerized-django-notes-guide?tab=readme-ov-file#notes-app",
+    "githubLink": "https://github.com/yourusername/finance"
+  },
+  {
+    "id": 8,
+    "title": "Move It",
+    "category": "BootStrap Landing Page",
+    "image": "images/project-2.png",
+    "demoLink": "https://zippy-pixie-9cd514.netlify.app/",
+    "githubLink": "https://github.com/yourusername/orizon"
+  }
+]
+
+
+  
