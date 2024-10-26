@@ -4,33 +4,9 @@ import { useEffect, useState } from "react"
 
 import Resume from "./Resume/Resume";
 
-const servicesData = [
-  {
-    icon: "/images/icon-design.svg",
-    title: "Web design",
-    description: "The most modern and high-quality design made at a professional level."
-  },
-  {
-    icon: "/images/icon-dev.svg",
-    title: "Web development",
-    description: "High-quality development of sites at the professional level."
-  },
-  {
-    icon: "/images/icon-app.svg",
-    title: "Mobile apps",
-    description: "Professional development of applications for iOS and Android."
-  },
-  {
-    icon: "/images/icon-photo.svg",
-    title: "Photography",
-    description: "I make high-quality photos of any category at a professional level."
-  }
-];
-
-
 const About = () => {
-  const [testimonials , setTestimonials ] = useState([]);
-  useEffect(()=> {
+  const [testimonials, setTestimonials] = useState([]);
+  useEffect(() => {
     fetch('testimonials.json').then(res => res.json()).then(data => {
       console.log(data)
       setTestimonials(data)
@@ -39,22 +15,22 @@ const About = () => {
   return (
     <section className="about " data-page="about">
 
-    <header>
-      <h2 className="h2 article-title">About me</h2>
-    </header>
+      <header>
+        <h2 className="h2 article-title">About me</h2>
+      </header>
 
-    <section className="about-text">
-      <p>
-      Hi there! 👋
-      </p>
+      <section className="about-text">
+        <p>
+          Hi there! 👋
+        </p>
 
-      <p>
-      I am a full-stack developer specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js), with a focus on creating responsive, scalable web applications. Alongside my development skills, I have experience in DevOps practices, utilizing AWS, Docker, Jenkins, and CI/CD pipelines to streamline deployment and ensure reliable performance. Feel free to check out my projects for skills validation, and I’m also open to freelance work or new opportunities.
-      </p>
+        <p>
+
+          I'm a full-stack developer with expertise in web and React Native app development, backed by DevOps practices like AWS and Docker. Passionate about AI LLM models and Web3, I focus on creating scalable, responsive applications. Open to freelance work or new opportunities, <br/>feel free to connect!</p>
+      </section>
+
+      <Resume />
     </section>
-
-    <Resume/>
-  </section>
   )
 }
 
