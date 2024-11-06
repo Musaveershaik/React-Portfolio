@@ -17,10 +17,10 @@
   },
   {
     "id": 3,
-    "title": "Drum Kit",
-    "category": "Interactive Web Applications",
-    "image": "images/project-6.png",
-    "demoLink": "https://cute-croquembouche-bc3712.netlify.app/",
+    "title": "3D T-Shirt Customizer",
+    "category": "Three.js, React.js",
+    "image": "images/project-3.png",
+    "demoLink": "https://3d-t-shirtcustomizer.netlify.app/",
     "githubLink": "https://github.com/yourusername/metaspark"
   },
   {
@@ -41,6 +41,21 @@
   },
   {
     "id": 6,
+    "title": "E-Bike Landing Page",
+    "category": "UI/UX Design Figma",
+    "image": "images/Chrome Extension (2).png",
+    "demoLink": "https://www.figma.com/proto/QzBw2YRBoaXb21Siq6pIbe/E-bike-Web-UI-Design?node-id=1-2&t=GhweStm0x3ApEmKv-1",
+    "githubLink": "https://github.com/yourusername/metaspark"
+  },{
+    "id": 7,
+    "title": "Drum Kit",
+    "category": "Interactive Web Applications",
+    "image": "images/project-6.png",
+    "demoLink": "https://cute-croquembouche-bc3712.netlify.app/",
+    "githubLink": "https://github.com/yourusername/metaspark"
+  },
+  {
+    "id": 8,
     "title": "Simon Game",
     "category": "Web-Based Games",
     "image": "images/project-4.png",
@@ -48,7 +63,7 @@
     "githubLink": "https://github.com/yourusername/brawlhalla"
   },    
   {
-    "id": 7,
+    "id": 9,
     "title": "NotesHub",
     "category": "Dockerized Apps",
     "image": "images/project-1.png",
@@ -56,7 +71,7 @@
     "githubLink": "https://github.com/yourusername/finance"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Move It",
     "category": "BootStrap Landing Page",
     "image": "images/project-2.png",
