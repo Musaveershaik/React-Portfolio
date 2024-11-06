@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar motion-scale-in-[0.5] motion-rotate-in-[-10deg] motion-blur-in-[10px] motion-delay-[0.75s]/rotate motion-delay-[0.75s]/blur">
     <ul className="navbar-list">
 
       {/* <li className="navbar-item">

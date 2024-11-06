@@ -13,7 +13,7 @@ const About = () => {
     });
   }, [])
   return (
-    <section className="about " data-page="about">
+    <section className="about" data-page="about">
 
       <header>
         <h2 className="h2 article-title">About me</h2>

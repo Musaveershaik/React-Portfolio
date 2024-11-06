@@ -1,8 +1,8 @@
 const Aside = () => {
   return (
-    <aside className="sidebar" data-sidebar>
+    <aside className="sidebar motion-scale-in-[0.5] motion-translate-x-in-[-25%] motion-translate-y-in-[25%] motion-opacity-in-[0%] motion-rotate-in-[-10deg] motion-blur-in-[5px] motion-duration-[0.35s] motion-duration-[0.53s]/scale motion-duration-[0.53s]/translate motion-duration-[0.63s]/rotate" data-sidebar>
         <div className="sidebar-info">
-        <div className="avatar-box">
+        <div className="avatar-box motion-preset-pop ">
           <img
               // src={"https://velvety-stroopwafel-403379.netlify.app/assets/MyProfilePic.jpg"}
               src={"/images/Dp_for All.png"}
@@ -14,13 +14,13 @@ const Aside = () => {
 
 
           <div className="info-content">
-            <h1 className="name" title="Muasaveer">
+            <h1 className="name motion-preset-typewriter motion-duration-2000" title="Muasaveer">
             Hi👋, I'm Musaveer!
             {/* <br/> */}
             </h1>
 
 
-            <p className="title">Full Stack Web/App Developer</p>
+            <p className="title motion-scale-in-[0.5] motion-rotate-in-[-10deg] motion-blur-in-[10px] motion-delay-[0.75s]/rotate motion-delay-[0.75s]/blur">Full Stack Web/App Developer</p>
           </div>
 
           {/* <button className="info_more-btn" data-sidebar-btn>

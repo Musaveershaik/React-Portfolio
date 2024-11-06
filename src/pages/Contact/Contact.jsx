@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <section className="contact" data-page="contact">
+    <section className="contact motion-scale-in-[0.5] motion-translate-x-in-[-25%] motion-translate-y-in-[25%] motion-opacity-in-[0%] motion-rotate-in-[-10deg] motion-blur-in-[5px] motion-duration-[0.35s] motion-duration-[0.53s]/scale motion-duration-[0.53s]/translate motion-duration-[0.63s]/rotate" data-page="contact">
 
       <header>
         <h2 className="h2 article-title">Contact</h2>
@@ -22,7 +22,7 @@ const Contact = () => {
 
           <textarea name="message" className="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-          <button className="form-btn" type="submit" data-form-btn>
+          <button className="form-btn motion-preset-shake " type="submit" data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
             <span>Send Message</span>
           </button>
