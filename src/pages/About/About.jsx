@@ -16,10 +16,10 @@ const About = () => {
     <section className="about" data-page="about">
 
       <header>
-        <h2 className="h2 article-title">About me</h2>
+        <h2 className="h2 article-title motion-preset-shrink motion-preset-flomoji-🚀">About me</h2>
       </header>
 
-      <section className="about-text">
+      <section className="about-text motion-preset-shrink ">
         <p>
           Hi there! 👋
         </p>

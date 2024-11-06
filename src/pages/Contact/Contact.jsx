@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="contact" data-page="contact">
 
       <header>
-        <h2 className="h2 article-title">Contact</h2>
+        <h2 className="h2 article-title motion-preset-slide-right motion-preset-flomoji-🚀">Contact</h2>
       </header>
 
       <section className="contact-form motion-scale-in-[0.5] motion-translate-x-in-[-25%] motion-translate-y-in-[25%] motion-opacity-in-[0%] motion-rotate-in-[-10deg] motion-blur-in-[5px] motion-duration-[0.35s] motion-duration-[0.53s]/scale motion-duration-[0.53s]/translate motion-duration-[0.63s]/rotate">
